@@ -1,0 +1,10 @@
+<div class="m-license">
+    <div class="clearfix">
+        {% if site.github_username and site.github_repo and site.github_repo_tree %}
+        <a class="octocat" href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}/tree/{{ site.github_repo_tree }}/{{ page.path }}">
+            <img alt="View on Github" src="{{ "/statics/images/octocat.jpg" | prepend: site.base_path | replace: '//', '/'}}" />
+        </a>
+        <p><a href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}/tree/{{ site.github_repo_tree }}/{{ page.path }}">View this POST on Github</a>.</P>
+        {% endif %}
+    </div>
+</div>

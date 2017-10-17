@@ -1,1 +1,1 @@
-# rationaler.github.io
+Seeking rationality in this irrational world.
